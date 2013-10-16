@@ -15,10 +15,17 @@
         <div class="">
             <nav class="navbar navbar-default" role="navigation">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Cahier de texte électronique</a></li>
+                    <li class="active"><a href="#"><img class="logo_cte" src="img/logo_cte.png"> </a></li>
                 </ul>
                 <ul class="nav navbar-nav pull-right">
-                  <li><a href="#" onclick="afficherAdministration();">Administration</a></li>
+                  <li>
+                      <a href="#" onclick="afficherAdministration();">
+                          <button type="button" class="btn btn-default btn-lg">
+                          <span class="glyphicon glyphicon-star"></span>
+                          </button>
+                          Administration
+                      </a>
+                  </li>
                   <li><a href="#">Créer une séance</a></li>
                   <li><a href="#">Créer un devoir</a></li>
                   <li><a href="#">Créer une interro</a></li>
