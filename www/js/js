@@ -1,4 +1,0 @@
-afficherAdministration()
-{
-    $('#administration').show();
-}

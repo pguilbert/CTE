@@ -4,19 +4,21 @@
 		<title>Accueil</title>
 		<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
-		<link type="text/css" rel="stylesheet" href="css/style.css" />
-		<script type="text/javascript" src="js/jquery/jquery-ui.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/AnnexeBootstrap.css" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
 		<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
 	</head>
 	<body>
         <!-- Navigation bar  -->
-        <div class="container">
+        <div class="">
             <nav class="navbar navbar-default" role="navigation">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Cahier de texte électronique</a></li>
                 </ul>
                 <ul class="nav navbar-nav pull-right">
+                  <li><a href="#" onclick="afficherAdministration();">Administration</a></li>
                   <li><a href="#">Créer une séance</a></li>
                   <li><a href="#">Créer un devoir</a></li>
                   <li><a href="#">Créer une interro</a></li>
@@ -26,11 +28,10 @@
         </div>
 
         <!-- Container -->
-        <div class="container">
-            <div class="row">
+        <div class="">
+            <div class="">
                 <!--Sidebar content-->
-                <button type="button" onclick="afficherAdministration();" class="btn btn-primary">Administration</button>
-                <div class="" id="administration" style="hide">
+                <div class="" id="administration" style="">
                     <button type="button" class="btn btn-link">Liste des intervenants</button>
                     <button type="button" class="btn btn-link">Liste des modules</button>
                     <button type="button" class="btn btn-link">Liste des classes</button>
@@ -43,7 +44,7 @@
                 <div class="span10">
                     <table>
                         <tr>
-                            <td>Classe</td>
+                            <td></td>
                             <td>
                                 <!-- Classroom choice -->
                                 <div class="tabbable">
@@ -51,8 +52,8 @@
                                         <li><a href="#B1" data-toggle="tab">B1</a></li>
                                         <li><a href="#B2" data-toggle="tab">B2</a></li>
                                         <li><a href="#B3" data-toggle="tab">B3</a></li>
-                                        <li><a href="#I4" data-toggle="tabI4">I4</a></li>
-                                        <li><a href="#I5" data-toggle="tabI5">I5</a></li>
+                                        <li><a href="#I4" data-toggle="tab">I4</a></li>
+                                        <li><a href="#I5" data-toggle="tab">I5</a></li>
                                     </ul>
                                 </div>
                                 <div class="tab-content">
