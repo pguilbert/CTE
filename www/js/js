@@ -1,0 +1,4 @@
+afficherAdministration()
+{
+    $('#administration').show();
+}
