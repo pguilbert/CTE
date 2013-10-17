@@ -16,7 +16,8 @@
 
 .tabs-left > .nav-tabs {
     float: left;
-    margin-right: 19px;
+    margin-right: 0px;
+    width: 100%;
     border-right: 1px solid #ddd;
 }
 
@@ -37,6 +38,6 @@
     *border-right-color: #ffffff;
 }
 
-.tabs-left{
-    width: 300px;
+.tabs-left {
+    padding-right: 0px;
 }
