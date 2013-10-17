@@ -1,11 +1,78 @@
+html, body {
+    height: 100%;
+}
+
+/* Barre de navigation */
+.navigationBar
+{
+    text-align: center;
+
+}
+
+.navigationBar .glyphicon
+{
+    font-size: 40px;
+}
+
+.logo_cte
+{
+    width: 140px;
+    height: auto ;
+}
+
+
+.navbar-default .navbar-nav>li>a.navigationAdministration
+{
+    color: #632266;
+}
+
+.navbar-default .navbar-nav>li>a.navigationSeance
+{
+    color: #f0800e;
+}
+
+.navbar-default .navbar-nav>li>a.navigationExercice
+{
+    color: #00a5cd;
+}
+
+.navbar-default .navbar-nav>li>a.navigationEvaluation
+{
+    color: #53af31;
+}
+
+.navbar-default .navbar-nav>li>a.navigationDeconnexion
+{
+    color: #df0236;
+}
+
+
 #administration
 {
     display: none;
 }
 
-.logo_cte
-{
-    width: 130px;
-    height: auto ;
 
+
+.content
+{
+    width: 100%;
+    max-height: 100%;
+    padding: 140px 50px 0 0;
+    background-color: #eee;
+    position: relative;
+}
+
+.content table td{
+    vertical-align: top;
+}
+
+.columnLeft
+{
+    float: left;
+}
+
+.columnRight
+{
+    float: left;
 }
